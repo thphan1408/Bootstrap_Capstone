@@ -7,8 +7,32 @@
 }
 
 html,
-body {
+body,
+button,
+input,
+select,
+textarea,
+optgroup {
   font-family: "Source Sans 3", sans-serif;
   font-size: 1rem;
   line-height: 1.5;
+  color: #404040;
+}
+
+button,
+input {
+  overflow: visible;
+}
+
+li {
+  list-style: none;
+}
+
+ul li a {
+  text-decoration: none;
+}
+
+h1 {
+  font-weight: 400;
+  line-height: 28px;
 }
