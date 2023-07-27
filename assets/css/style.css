@@ -1,5 +1,10 @@
 /* HEADER */
-header.main__header{
+header{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  z-index: 1000;
 }
 
 /* Logo */
@@ -8,7 +13,12 @@ header.main__header{
   color: #fb811e;
   padding: 0;
   position: relative;
+  transition: all 0.5s;
   white-space: 1px;
+}
+
+.navbar .navbar-brand:hover{
+  color: #060606;
 }
 
 .navbar .navbar-brand i {
@@ -95,7 +105,6 @@ ul#menu input:checked ~ ul.submenu {
 
 ul.submenu {
   max-height: 0;
-  padding: 0;
   overflow: hidden;
   list-style-type: none;
   background-color: #fff;
@@ -124,4 +133,53 @@ ul.submenu li a:hover {
 
 ul.submenu li.active a {
   color: #fb811e;
+}
+
+/* CAROUSEL */
+.portCarousel{
+  overflow: hidden;
+}
+
+#portCarouselID .carousel-inner{
+
+  border-bottom-left-radius: 20px;
+}
+
+#portCarouselID .carousel-item {
+  height: 100vh;
+}
+
+#portCarouselID .carousel-item::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(0 0 0 / 17%);
+  z-index: -1;
+  top: 0;
+}
+
+#portCarouselID .carousel-item > img {
+  height: 100%;
+  object-fit: cover;
+}
+
+#portCarouselID .carousel-caption {
+  bottom: 5%;
+  right: 0;
+  transform: translate(40%, 0);
+}
+
+#portCarouselID .carousel-indicators{
+  bottom: 2%;
+}
+
+#portCarouselID .carousel-indicators li{
+  width: 13px;
+  height: 13px;
+  border-radius: 50%;
+}
+
+#portCarouselID .carousel-indicators li.active{
+  background-color: #fb811e;
 }
