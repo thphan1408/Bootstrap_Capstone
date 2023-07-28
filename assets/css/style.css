@@ -183,3 +183,11 @@ ul.submenu li.active a {
 #portCarouselID .carousel-indicators li.active{
   background-color: #fb811e;
 }
+
+/* CAROUSEL LEFT*/
+.carousel__left h2{
+  color: #f4f4f4;
+  font-size: 120px;
+  font-weight: bold;
+  margin: -.5em;
+}
