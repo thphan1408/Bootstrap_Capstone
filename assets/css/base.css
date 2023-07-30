@@ -57,3 +57,30 @@ h1 {
   color: #ffffff;
 }
 
+.small__title{
+  color: #fb811e;
+  font-size: 22px;
+}
+
+.text__white{
+  color: #fff !important;
+}
+
+.title__style{
+  font-size: 40px;
+  line-height: 50px;
+  font-weight: 600;
+  color: #060606;
+}
+
+.title__bg{
+  position: absolute;
+  color: #fff;
+  font-weight: bold;
+  font-size: 12vw;
+  z-index: 0;
+  opacity: 0.14;
+  right: 50%;
+  bottom: 50%;
+  transform: translate(50%, 50%);
+}

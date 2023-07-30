@@ -264,9 +264,24 @@ h5.small__title{
   margin-top: 25px;
   display: block;
   color: #060606;
+  text-decoration: none;
 }
 
 .features .features__item h4 a:hover {
   color: #009f4d;
 }
 /* FEATURES RIGHT */
+
+/* SERVICE */
+.service{
+  background-color: #009f4d;
+}
+
+.service__title{
+  z-index: 1;
+}
+
+.service__title .text__service{
+  font-size: 1.25rem;
+  font-weight: 300;
+}
