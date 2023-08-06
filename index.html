@@ -28,10 +28,10 @@
 
   <!-- Base css -->
   <link rel="stylesheet" href="./assets/css/base.css" />
-  
+
   <!-- Reponsive css -->
   <link rel="stylesheet" href="./assets/css/reponsive.css">
-  
+
   <!-- My css -->
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
@@ -176,8 +176,10 @@
           <h3 class="features__title mb-md-3 mb-2">
             Leaders in the field
           </h3>
-          <p class="text__features">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit. Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
-          <a class="btn btn-style mt-sm-5 mt-4" href="#">Discover More</a>
+          <p class="text__features">Aurabitur id gravida risus. Fusce eget ex fermentum, ultricies nisi ac sed, lacinia
+            est. Quisque ut lectus consequat, venenatis eros et, sed commodo risus. Nullam sit amet laoreet elit.
+            Suspendisse non init magnaa velit efficitur, dolor eget ex fermentum.</p>
+          <a class="btn btn-style mt-sm-5 mt-4" onclick="disableClick(event)" href="#">Discover More</a>
         </div>
 
         <div class="col-lg-6 features__right mt-lg-0 mt-5">
@@ -241,20 +243,92 @@
               What we do
             </h5>
             <h3 class="title__style text__white">
-              Why Choose Our Fresh <br> Organic Foods          
+              Why Choose Our Fresh <br> Organic Foods
             </h3>
           </div>
           <div class="col-md-6 section__heading mt-md-0 mt-2">
-            <p class="text__white text__service">    
-            Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque,
-            eaque ipsa quae ab illo inventore.Sed ut perspiciatis unde omnis iste natus error sit.          
+            <p class="text__white text__service">
+              Sed ut perspiciatis unde omnis iste natus error sit accusantium doloremque,
+              eaque ipsa quae ab illo inventore.Sed ut perspiciatis unde omnis iste natus error sit.
             </p>
           </div>
         </div>
         <h4 class="title__bg">Services</h4>
       </div>
+      <div class="row justify-content-center">
+        <div class="col-lg-4 col-md-6 item">
+          <div class="card">
+            <a href="#" onclick="disableClick(event)" class="img__link">
+              <img src="./assets/img/service1.jpg" class="card-img-top" alt="services_1">
+            </a>
+            <div class="card-body service__detail">
+              <h5 class="card-title label__title">Natural</h5>
+              <a href="#" onclick="disableClick(event)" class="service__link">Agriculture Products</a>
+              <p class="card-text text__grey">
+                Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque laudantium, totam rem aperiam
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+          <div class="card">
+            <a href="#" onclick="disableClick(event)" class="img__link">
+              <img src="./assets/img/service2.jpg" class="card-img-top" alt="services_2">
+            </a>
+            <div class="card-body service__detail">
+              <h5 class="card-title label__title">Agriculture</h5>
+              <a href="#" onclick="disableClick(event)" class="service__link">Fresh Vegetables</a>
+              <p class="card-text text__grey">
+                Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque laudantium, totam rem aperiam
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 col-md-6 mt-md-0 mt-4">
+          <div class="card">
+            <a href="#" onclick="disableClick(event)" class="img__link">
+              <img src="./assets/img/service3.jpg" class="card-img-top" alt="services_3">
+            </a>
+            <div class="card-body service__detail">
+              <h5 class="card-title label__title">Farm</h5>
+              <a href="#" onclick="disableClick(event)" class="service__link">Organic Products</a>
+              <p class="card-text text__grey">
+                Sed ut perspiciatis unde omnis iste natus sit accusantium doloremque laudantium, totam rem aperiam
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </section>
+
+  <footer>
+    <section class="footer">
+      <div class="main__footer py-5">
+        <div class="container py-4">
+          <div class="row"> 
+            <div class="col-lg-4 order-lg-1 order-3 mt-lg-0 mt-5">
+              <h4 class="footer__logo">
+                <a href="#" class="logo">
+                  Farmsteal
+                  <i class="fa fa-leaf" aria-hidden="true"></i>
+                </a>
+              </h4>
+              <p class="mt-4 text__grey">
+                Duis imperdiet sapien tortor, vitae congue diam auctor vitae. Aliquam eget turpis ornare, euismod ligul aeget, enenatis dui.
+              </p>
+              <!-- Copyright c -->
+              <p class="mt-5 copy__text">
+                © 2023 Farmstead. All Rights Reserved | WordPress
+                <a href="#">W3Layouts.</a>
+              </p>
+              <!-- // Copyright c -->
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </footer>
 
   <!-- JS Bootstrap 4 -->
   <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
@@ -263,6 +337,9 @@
   <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct"
     crossorigin="anonymous"></script>
+
+  <!-- My JS -->
+  <script src="./assets/js/index.js"></script>
 </body>
 
 </html>

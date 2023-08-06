@@ -1,94 +1,115 @@
-/* REPONSIVE CAROUSEL */
-@media (max-width:1440px) {
-    .portCarousel .content h3 {
-      font-size: 40px;
-      line-height: 50px;
-    }
-  
-    .portCarousel .carousel__left h2 {
-      font-size: 100px;
-    }
+@media (max-width: 1440px) {
+  /* Carousel */
+  .portCarousel .content h3 {
+    font-size: 40px;
+    line-height: 50px;
   }
-  
-  @media (max-width:1150px) {
-    .portCarousel .carousel__left {
-      left: 5em;
-    }
-  
-    .portCarousel p.carou__text {
-      font-size: 17px;
-    }
-  
-    .portCarousel .content h3 {
-      font-size: 35px;
-      line-height: 45px;
-    }
-  
-    .portCarousel .carousel__left h2 {
-      font-size: 90px;
-    }
+
+  .portCarousel .carousel__left h2 {
+    font-size: 100px;
   }
-  
-  @media (max-width:991px) {
-    .portCarousel .carousel__left {
-      left: 2em;
-    }
-  
-    .portCarousel .content h3 {
-      font-size: 32px;
-      line-height: 42px;
-    }
-  
-    .portCarousel .carousel__left h2 {
-      font-size: 80px;
-    }
+}
+
+@media (max-width: 1150px) {
+  /* Carousel */
+  .portCarousel .carousel__left {
+    left: 5em;
   }
-  
-  @media (max-width: 768px) {
-    .portCarousel .carousel__left {
-      left: 0em;
-      padding: 2em;
-    }
-  
-    .portCarousel .carousel__content {
-      background: #fff;
-      padding: 3em 2em 2em 4em;
-      border-radius: 8px;
-    }
+
+  .portCarousel p.carou__text {
+    font-size: 17px;
   }
-  
-  @media (max-width: 568px) {
-    .portCarousel .content h3 {
-      font-size: 28px;
-      line-height: 38px;
-    }
-  
-    .portCarousel .carousel__left h2 {
-      font-size: 70px;
-    }
-  
-    .portCarousel p.carou__text {
-      font-size: 16px;
-    }
+
+  .portCarousel .content h3 {
+    font-size: 35px;
+    line-height: 45px;
   }
-  
-  @media (max-width: 480px) {
-    .portCarousel .carousel__content {
-      padding: 2.5em 2em 2em 2.5em;
-    }
-  
-    .portCarousel .carousel__left h2 {
-      font-size: 60px;
-    }
-  
-    .portCarousel .content h3 {
-      font-size: 25px;
-      line-height: 35px;
-    }
-  
-    .portCarousel .carousel__left {
-      padding: 1em;
-    }
+
+  .portCarousel .carousel__left h2 {
+    font-size: 90px;
   }
-  /* REPONSIVE CAROUSEL */
-  
+}
+
+@media (max-width: 991px) {
+  /* Carousel */
+  .portCarousel .carousel__left {
+    left: 2em;
+  }
+
+  .portCarousel .content h3 {
+    font-size: 32px;
+    line-height: 42px;
+  }
+
+  .portCarousel .carousel__left h2 {
+    font-size: 80px;
+  }
+
+  /* Service */
+  .title__style {
+    font-size: 35px;
+    line-height: 45px;
+  }
+}
+
+@media (max-width: 768px) {
+  /* Carousel */
+  .portCarousel .carousel__left {
+    left: 0em;
+    padding: 2em;
+  }
+
+  .portCarousel .carousel__content {
+    background: #fff;
+    padding: 3em 2em 2em 4em;
+    border-radius: 8px;
+  }
+
+  /* Service */
+  .title__style {
+    font-size: 32px;
+    line-height: 42px;
+  }
+}
+
+@media (max-width: 568px) {
+  /* Carousel */
+  .portCarousel .content h3 {
+    font-size: 28px;
+    line-height: 38px;
+  }
+
+  .portCarousel .carousel__left h2 {
+    font-size: 70px;
+  }
+
+  .portCarousel p.carou__text {
+    font-size: 16px;
+  }
+
+  /* Service */
+  .title__style {
+    font-size: 30px;
+    line-height: 40px;
+  }
+}
+
+@media (max-width: 480px) {
+  /* Carousel */
+  .portCarousel .carousel__content {
+    padding: 2.5em 2em 2em 2.5em;
+  }
+
+  .portCarousel .carousel__left h2 {
+    font-size: 60px;
+  }
+
+  .portCarousel .content h3 {
+    font-size: 25px;
+    line-height: 35px;
+  }
+
+  .portCarousel .carousel__left {
+    padding: 1em;
+  }
+}
