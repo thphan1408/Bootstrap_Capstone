@@ -285,3 +285,62 @@ h5.small__title{
   font-size: 1.25rem;
   font-weight: 300;
 }
+
+/* SERVICES CARD */
+.service .card{
+  border: none;
+  background: #fff;
+  /* padding: 30px 20px; */
+  border-radius: 20px;
+  display: block;
+  overflow: hidden;
+}
+
+.service__detail{
+}
+
+a.service__link{
+  display: block;
+  font-size: 24px;
+  line-height: 30px;
+  font-weight: 600;
+  color: #060606;
+  text-decoration: none;
+  margin: 15px 0;
+  transition: all .5s;
+}
+
+a.service__link:hover{
+  color: #009f4d;
+}
+
+/* FOOTER */
+.footer a.logo{
+  font-size: 32px;
+  color: #fb811e;
+  text-decoration: none;
+  position: relative;
+  padding: 0;
+  transition: all .5s;
+}
+
+.footer a.logo:hover{
+  color: #060606;
+}
+
+.footer a.logo i{
+  position: absolute;
+  top: -3px;
+  left: 54px;
+  font-size: 20px;
+}
+
+.footer p.copy__text a{
+  color: #009f4d;
+  transition: all .5s;
+  text-decoration: none;
+} 
+
+.footer p.copy__text a:hover{
+  color: #fb811e;
+}

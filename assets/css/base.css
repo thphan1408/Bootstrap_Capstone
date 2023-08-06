@@ -84,3 +84,18 @@ h1 {
   bottom: 50%;
   transform: translate(50%, 50%);
 }
+
+.text__grey{
+  font-size: 17px;
+  line-height: 27px;
+  color: #707070;
+}
+
+.label__title{
+  color: #009f4d;
+  display: inline-block;
+  background: rgb(0 159 77 / 16%);
+  padding: 5px 20px;
+  border-radius: 15px;
+  font-weight: 600;
+}
