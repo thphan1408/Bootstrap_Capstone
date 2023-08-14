@@ -311,6 +311,169 @@ a.service__link {
 a.service__link:hover {
   color: #009f4d;
 }
+/*Quality-T.A*/
+.quality12
+{
+  
+}
+.imginfo__box {
+    background-color: #fb811e;
+    color: #fff;
+    position: absolute;
+    bottom: 38px;
+    left: -85px;
+    padding: 40px;
+    box-shadow: 30px 30px 30px rgb(0 0 0 / 20%);
+    min-width: 300px;
+    border-radius: 0 0 100px 0;
+    text-align: center;
+}
+body {
+    padding: 0;
+    margin: 0!important;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+
+.fa 
+{
+  color: #fb811e;
+  font-size: 30px;
+}
+.detail h4
+{
+  font-weight: bold;
+}
+.imginfo__title {
+  font-size: 70px;
+  line-height: 80px;
+  color: #fff;
+  font-weight: 600;
+}
+.imginfo__box p {
+  color: #fff;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 600;
+  letter-spacing: .2px;
+}
+.radius-image {
+  border-radius: var(--border-radius);
+}
+.img-fluid {
+  max-width: 100%;
+  height: auto;
+}
+
+/*Block Quality*/
+.containerBlockQuality
+{
+  width: 100%;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+.row
+{
+  display: flex;
+  flex-wrap: wrap;
+  margin-right: -15px;
+  margin-left: -15px;
+  text-align: left;
+  line-height: 1.5;
+}
+
+.BlockQuality .features15-col-text
+{
+  margin-top: 30px;
+}
+
+.feature-unit{
+  padding: 30px;
+}
+
+.feature-unit:hover
+{
+  text-decoration: none;
+  border: gainsboro solid 1px;
+  border-radius: 10px;
+  transition: 0.5s all; 
+}
+
+.feature-unit:hover .features15-para h4{
+  color: #009f4d;
+}
+
+
+
+.BlockQuality .features-unit
+{
+  border-radius: 10px;
+  border: 1px solid transparent;
+}
+
+.BlockQuality .features15-para h4
+{
+  font-size: 22px;
+  line-height: 25px;
+  font-weight: 600;
+  font-family: 'Volkhov', serif;
+  color: #060606;
+
+}
+
+
+
+.BlockQuality .features15-para p
+{
+  margin-top: 10px;
+  color: #707070;
+  font-size: 17px;
+  line-height: 27px;
+}
+
+.col-9
+{
+  flex: 0 0 75%;
+  max-width: 75%;
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.col-3
+{
+  flex: 0 0 75%;
+  max-width: 25%;
+  position: relative;
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+/*BG Client*/
+.Client
+{
+  background: url(/assets/img/bg1.jpg);
+  position: relative;
+  z-index: 1;
+}
+.owl-carousel
+{
+  display: block;
+  width: 100%;
+}
+.container
+{
+  width: 100%;
+  padding-left: 15px;
+  padding-right: 15px;
+}
+.owl-carousel .owl-stage-outer
+{
+  position: relative;
+  overflow: hidden;
+}
+
+
 
 /* FOOTER */
 .footer a.logo {
