@@ -8,4 +8,4 @@
 - Phan Vũ Công Thành các thành phần đã làm:
     - Header; Service; Carousel, Footer; button back to top
 - Lê Tiến Anh các thành phần đã làm: 
-    - Quality, Testimonials, Banner, gallery 
+    - Quality, Testimonials, Banner, Gallery 
