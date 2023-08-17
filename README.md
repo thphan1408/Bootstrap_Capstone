@@ -9,3 +9,5 @@
     - Header; Service; Carousel, Footer; button back to top
 - Lê Tiến Anh các thành phần đã làm: 
     - Quality, Testimonials, Banner, Gallery 
+
+# link deploy: https://bootstrap-capstone-azure.vercel.app/
