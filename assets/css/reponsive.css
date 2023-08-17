@@ -9,7 +9,7 @@
     font-size: 100px;
   }
 }
-
+  
 @media (max-width: 1150px) {
   /* Carousel */
   .portCarousel .carousel__left {
