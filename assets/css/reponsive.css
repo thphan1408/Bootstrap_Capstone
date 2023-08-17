@@ -100,6 +100,10 @@
     padding: 2.5em 2em 2em 2.5em;
   }
 
+  .dark .portCarousel .carousel__content{
+    background: #222;
+  }
+
   .portCarousel .carousel__left h2 {
     font-size: 60px;
   }
@@ -107,6 +111,10 @@
   .portCarousel .content h3 {
     font-size: 25px;
     line-height: 35px;
+  }
+
+  .dark .portCarousel .content{
+    color: #fff;
   }
 
   .portCarousel .carousel__left {

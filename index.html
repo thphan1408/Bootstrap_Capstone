@@ -36,46 +36,63 @@
   <link rel="stylesheet" href="./assets/css/style.css" />
 </head>
 
-<body>
+<body id="myBody">
   <!-- Header -->
-  <header class="fixed-top py-4">
-    <!-- // Navigation -->
-    <nav class="navbar navbar-dark navbar-light container">
-      <h1>
-        <a class="navbar-brand index-responsive-color d-flex align-items-center" href="#">
-          <i class="fa fa-leaf" aria-hidden="true"></i>
-          Farmstead
-        </a>
-      </h1>
+  <header class=" py-4">
 
-      <div class="navbar__right d-flex">
-        <div class="HeaderSearch ml-lg-3 search-right">
-          <form id="seach__form">
-            <input type="search" placeholder="Search" name="s" />
-          </form>
-        </div>
-
-        <ul id="menu">
-          <li>
-            <input type="checkbox" name="menu" id="check02">
-            <label for="check02">
-              <i class="fa fa-bars"></i>
-            </label>
-
-            <ul id="primary-menu" class="submenu">
-              <li class="active"><a href="#">home</a></li>
-              <li><a href="#">about</a></li>
-              <li><a href="#">services</a></li>
-              <li><a href="#">blog posts</a></li>
-              <li><a href="#">landing page</a></li>
-              <li><a href="#">elements page</a></li>
-              <li><a href="#">404 page</a></li>
-              <li><a href="#">contact</a></li>
-            </ul>
-          </li>
-        </ul>
-    </nav>
-    <!-- // Navigation -->
+    <div class="fixed-top">
+      <!-- // Navigation -->
+      <nav class="navbar navbar-dark navbar-light container ">
+        <h1>
+          <a class="navbar-brand index-responsive-color d-flex align-items-center logo" href="#">
+            <i class="fa fa-leaf" aria-hidden="true"></i>
+            Farmstead
+          </a>
+        </h1>
+  
+        <div class="navbar__right d-flex">
+          <div class="HeaderSearch ml-lg-3 search-right">
+            <form id="seach__form">
+              <input type="search" placeholder="Search" name="s" />
+            </form>
+          </div>
+  
+          <div class="cont-ser-position mr-3 DarkandLight">
+            <nav class="navigation">
+              <div class="theme__switch__wrapper">
+                <label class="theme__switch" for="checkbox">
+                  <input type="checkbox" id="checkbox" />
+                  <button class="mode__container" id="icon__theme">
+                    <i class="fa fa-sun"></i>
+                    <i class="fa fa-moon"></i>
+                  </button>
+                </label>
+              </div>
+            </nav>
+          </div>
+  
+          <ul id="menu">
+            <li>
+              <input type="checkbox" name="menu" id="check02">
+              <label for="check02">
+                <i class="fa fa-bars"></i>
+              </label>
+  
+              <ul id="primary-menu" class="submenu">
+                <li class="active"><a href="#">home</a></li>
+                <li><a href="#">about</a></li>
+                <li><a href="#">services</a></li>
+                <li><a href="#">blog posts</a></li>
+                <li><a href="#">landing page</a></li>
+                <li><a href="#">elements page</a></li>
+                <li><a href="#">404 page</a></li>
+                <li><a href="#">contact</a></li>
+              </ul>
+            </li>
+          </ul>
+      </nav>
+      <!-- // Navigation -->
+    </div>
   </header>
 
   <!-- CAROUSEL -->
@@ -641,10 +658,10 @@
                 </p>
               </div>
             </div>
-            <div class="col-lg-4 col-md-7 order-lg-3 order-1 mt-lg-0 mt-5">
-              <h3>NEWSLETTER</h3>
-
+            <div class="col-lg-4 col-md-7 order-lg-3 order-1 mt-lg-0 mt-5 ">
+              
               <div class="footer__sub">
+                <h3>NEWSLETTER</h3>
                 <p class="text__grey">
                   Subscribe to our mailing list and get updates to your email inbox.
                 </p>
